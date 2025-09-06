@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    
+    .container{
+      display:grid;
+      height:748px;
+      width:748px;
+      grid-template-columns:320px 198px 153px 50px;
+      grid-template-rows:414px 130px 155px 20px;
+      gap:9px;
+      background-color: black;
+    }
+    .red{
+      background-color: red;
+    }
+    .whiteone{
+      background-color: wheat;
+      grid-column: span 3;
+    }
+    .whitetwo{
+      background-color: wheat;
+      grid-row: span 2;
+    }
+    .whitethree{
+      background-color: wheat;
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+    .blue{
+      background-color: blue;
+      border-bottom: 10px solid black;
+    }
+    .whitefour{
+      background-color: wheat;
+      grid-row: span 2;
+    }
+    .whitefive{
+      background-color: wheat;
+    }
+    .yellow{
+      background-color: rgb(246, 207, 11);
+    }
+    .black{
+      background-color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="container">
+    <div class="red"></div>
+    <div class="whiteone"></div>
+    <div class="whitetwo"></div>
+    <div class="whitethree"></div>
+    <div class="blue"></div>
+    <div class="whitefour"></div>
+    <div class="whitefive"></div>
+    <div class="yellow"></div>
+    <div class="black"></div>
+   </div>
+</body>
+
+</html>
